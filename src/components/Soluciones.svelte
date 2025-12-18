@@ -1,0 +1,76 @@
+<section class="soluciones" id="soluciones">
+  <h2>Nuestras Soluciones</h2>
+  <div class="soluciones-grid">
+    <div class="solucion-card">
+      <img src="/icons/iot.svg" alt="IoT" class="icon" />
+      <h3>IoT y Smart Metering</h3>
+      <p>Implementación de redes inteligentes para la medición y gestión eficiente de agua y energía.</p>
+    </div>
+    <div class="solucion-card">
+      <img src="/icons/consultoria.svg" alt="Consultoría" class="icon" />
+      <h3>Consultoría Especializada</h3>
+      <p>Asesoría estratégica y técnica para empresas de servicios públicos y gobiernos.</p>
+    </div>
+    <div class="solucion-card">
+      <img src="/icons/analytics.svg" alt="Analytics" class="icon" />
+      <h3>Analítica & Big Data</h3>
+      <p>Soluciones de análisis avanzado para la toma de decisiones basada en datos.</p>
+    </div>
+    <div class="solucion-card">
+      <img src="/icons/gestion.svg" alt="Gestión" class="icon" />
+      <h3>Gestión Integral de Proyectos</h3>
+      <p>Desde la conceptualización hasta la operación, acompañamos todo el ciclo de vida del proyecto.</p>
+    </div>
+  </div>
+</section>
+
+<style>
+.soluciones {
+  background: #f7fbfd;
+  color: #0a2540;
+  padding: 64px 0 48px 0;
+  text-align: center;
+}
+.soluciones h2 {
+  font-size: 2.1rem;
+  font-weight: 900;
+  margin-bottom: 36px;
+  color: #0a2540;
+}
+.soluciones-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+  justify-items: center;
+}
+.solucion-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(10,37,64,0.08);
+  padding: 32px 18px 24px 18px;
+  min-width: 220px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s;
+}
+.solucion-card:hover {
+  box-shadow: 0 4px 24px rgba(30,144,255,0.13);
+}
+.icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 18px;
+}
+.solucion-card h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1e90ff;
+}
+.solucion-card p {
+  font-size: 1rem;
+  color: #0a2540;
+}
+</style>
